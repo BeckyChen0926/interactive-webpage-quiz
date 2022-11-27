@@ -1,0 +1,49 @@
+/* Authors: Becky and Lian */
+
+/* the container of the questions have a width of 80% of the body*/
+#quizContainer {
+    width: 80%;
+    background-color: gray;
+}
+
+#leftCol {
+    background-color: silver;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+}
+
+#rightCol {
+    background-color: silver;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+}
+
+/* defult question view */
+.normal{
+    background-color: white;
+    border: 2px;
+    border-style: solid;
+    /* border-color: black; */
+    margin: 1em;
+    padding: 1em;
+}
+
+.qFormat {
+    margin: 0.3em;
+}
+
+.correct {
+    background-color: lightgreen;
+    border: 2px;
+    border-style: solid;
+    border-color: green;
+}
+
+.wrong {
+    background-color: rgb(210, 70, 70);
+    border: 2px;
+    border-style: solid;
+    border-color: red;
+}
